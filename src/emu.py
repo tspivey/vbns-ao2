@@ -70,7 +70,7 @@ def process(lst):
   tts.speak(v, False)
 
 def speed(x):
- return "\x01%dS " % rate_map[x]
+ return ""
 def pitch(x):
  return ""
 def reset():
